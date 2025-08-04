@@ -1,0 +1,39 @@
+.SoundsCon{
+    display: flex;
+    flex-direction: column;
+}
+
+.Sounds{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    gap: .8rem;
+}
+
+.SoundsBtn {
+    background: #2C94D6;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: inherit;
+    color: white;
+    padding: .4rem 1rem;
+    border-radius: 5px;
+}
+/* Responsive Styles for Tablet & Mobile */
+@media (max-width: 768px) {
+  .SoundsBtn {
+    padding: .3rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+  /* Stack sound buttons vertically for easier tapping */
+  .SoundsBtn {
+    width: 50%;
+    text-align: center;
+  }
+}
