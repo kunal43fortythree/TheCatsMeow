@@ -1,6 +1,7 @@
 {
   "name": "catboard",
   "private": true,
+  "homepage": "https://kunal43fortythree.github.io/TheCatMeow",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
